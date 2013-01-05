@@ -7,6 +7,14 @@ file.name <- "log_barcodes_observed.fq_sequences.bar_barcode.list.tsv"
 barcode_plot(file.name, expt.name)
 ```
 
+<!--
+    # The above snippet is the Github syntax-highlighted version of this:
+    setwd("sample_files/output/")
+    expt.name <- "demo"
+    file.name <- "log_barcodes_observed.fq_sequences.bar_barcode.list.tsv"
+    barcode_plot(file.name, expt.name)
+ -->
+
 ```bash
 ./barcode_split_trim.pl \
   --barcode sample_files/barcode.list \
@@ -14,6 +22,15 @@ barcode_plot(file.name, expt.name)
   --outdir sample_files/output \
   sample_files/sequences.fq
 ```
+
+<!--
+    # The above snippet is the Github syntax-highlighted version of this:
+    ./barcode_split_trim.pl \
+      --barcode sample_files/barcode.list \
+      --list \
+      --outdir sample_files/output \
+      sample_files/sequences.fq
+ -->
 
     ./barcode_split_trim.pl \
       --barcode sample_files/barcode.list \
