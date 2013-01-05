@@ -15,3 +15,6 @@
 [link to folder](https://github.com/mfcovington/link_test/blob/master/folder_1/)
 
 <img src="https://raw.github.com/mfcovington/link_test/master/folder_1/demo.barcodes.png" height="300" />
+<img src="https://raw.github.com/mfcovington/link_test/master/folder_1/demo.barcodes.png" height="500" />
+<img src="https://raw.github.com/mfcovington/link_test/master/folder_1/demo.barcodes.png" height="700" />
+<img src="https://raw.github.com/mfcovington/link_test/master/folder_1/demo.barcodes.png" height="900" />
