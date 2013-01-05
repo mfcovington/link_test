@@ -13,3 +13,5 @@
 ![image - raw path](https://raw.github.com/mfcovington/link_test/master/folder_1/demo.barcodes.png)
 
 [link to folder](https://github.com/mfcovington/link_test/blob/master/folder_1/)
+
+<img src="https://raw.github.com/mfcovington/link_test/master/folder_1/demo.barcodes.png" height="300" />
