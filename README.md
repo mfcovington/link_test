@@ -7,11 +7,12 @@ file.name <- "log_barcodes_observed.fq_sequences.bar_barcode.list.tsv"
 barcode_plot(file.name, expt.name)
 ```
 
-```r
-setwd("sample_files/output/")
-expt.name <- "demo"
-file.name <- "log_barcodes_observed.fq_sequences.bar_barcode.list.tsv"
-barcode_plot(file.name, expt.name)
+```bash
+./barcode_split_trim.pl \
+  --barcode sample_files/barcode.list \
+  --list \
+  --outdir sample_files/output \
+  sample_files/sequences.fq
 ```
 
 [file_a](file://folder_1/linked_file_a)
