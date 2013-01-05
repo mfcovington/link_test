@@ -15,6 +15,13 @@ barcode_plot(file.name, expt.name)
   sample_files/sequences.fq
 ```
 
+    ./barcode_split_trim.pl \
+      --barcode sample_files/barcode.list \
+      --list \
+      --outdir sample_files/output \
+      sample_files/sequences.fq
+
+
 [file_a](file://folder_1/linked_file_a)
 
 [file_a absolute link](https://github.com/mfcovington/link_test/blob/master/folder_1/linked_file_a)
